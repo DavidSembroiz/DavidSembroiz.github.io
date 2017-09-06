@@ -24,6 +24,10 @@ body {
 }
 
 .profile-img {
+	text-align: center;
+}
+
+.profile-img > img {
 	border-radius: 5px;
 }
 
@@ -117,6 +121,7 @@ body {
 }
 
 .profile-widget {
+	text-align: center;
 	margin-left: 3px;
 }
 
@@ -218,7 +223,7 @@ h5 {
 }
 .widget-social {
 	padding: 0;
-	margin: 0;
+	margin-top: 10px;
 }
 .widget-social li {
 	display: inline-block;
@@ -240,6 +245,9 @@ h5 {
 .widget-social li a:hover {
 	background: #EF4836;
 }
+
+
+
 @media (max-width: 767px) {
 	#home {
 		text-align: center;
