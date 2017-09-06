@@ -5,11 +5,6 @@
  */
 
 
-
-if ($('body').hasClass('index')) {
-	google.maps.event.addDomListener(window, 'load', initialize);
-}
-
 var speed = 1000;
 var topOffset = 50;
 
