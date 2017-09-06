@@ -17,7 +17,6 @@ $(document).ready(function() {
 	pageScrolling();
 	changeNavbarColor();
 	collapseNavbar();
-	validateForm();
 	$('#intro').backstretch(['img/background.jpg']);
 });
 
