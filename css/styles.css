@@ -18,10 +18,7 @@ body {
 	max-width: 1200px;
 	margin: auto;
 }
-#intro {
-	height: 550px;
-	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-}
+
 
 .logo {
 	margin-top: 5px;
@@ -33,6 +30,8 @@ body {
 
 .profile-img > img {
 	border-radius: 5px;
+	width: 150px;
+	height: 100%;
 }
 
 .project-item {
@@ -139,6 +138,12 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 5px 0 5px;
 	color: #222;
 }
+
+#intro {
+	height: 600px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
 .tools {
 	margin-left: 8px;
 }
